@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG,format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-updater = Updater("< bot id >", use_context=True)
+updater = Updater("1226667925:AAE7MnWMN4DNNnYG1w4DrNvEi9eZNpzY-Vk", use_context=True)
 
 def id(update,context):
     chatid = update.message.chat.id
